@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/file_properties"
+        android:title="Properties">
+    </item>
+    <item
+        android:id="@+id/file_remove_from_recents"
+        android:title="Remove from Recents"
+        android:visible="false">
+    </item>
+    <item
+        android:id="@+id/file_rename"
+        android:title="Rename">
+    </item>
+    <item
+        android:id="@+id/file_duplicate"
+        android:title="Duplicate">
+    </item>
+    <item
+        android:id="@+id/file_move"
+        android:title="Move"
+        android:visible="false">
+    </item>
+    <item
+        android:id="@+id/file_delete"
+        android:title="Delete">
+    </item>
+    <item
+        android:id="@+id/file_share"
+        android:title="Share">
+    </item>
+
+</menu>

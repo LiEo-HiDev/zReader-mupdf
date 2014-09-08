@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="daynight_mode">
+        <item >Day</item>
+        <item >Night</item>
+    </string-array>
+    <string-array name="page_mode">
+        <item >Single page</item>
+        <item >Double page</item>
+        <item >Auto</item>
+    </string-array>
+    
+    <string-array name="orientation_mode">
+        <item >Auto</item>
+        <item >Lock on current orientation</item>
+    </string-array>
+</resources>

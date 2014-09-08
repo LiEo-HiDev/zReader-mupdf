@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/page_bg_color"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <GridView
+            android:id="@+id/PagerGridView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/page_bg_color"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:horizontalSpacing="@dimen/gridview_padding"
+            android:numColumns="@integer/num_columns"
+            android:padding="@dimen/gridview_padding"
+            android:verticalSpacing="@dimen/gridview_padding" >
+        </GridView>
+
+        <ProgressBar
+            android:id="@+id/progressBarBook"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textViewNoItem"
+            style="@style/Typography_Subhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:fontFamily="sans-serif"
+            android:text="No Documents"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/typography_color_hinttext"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="md_cyam">#00bcd4</color>
+    <color name="md_light_blue">#03a9f4</color>
+    <color name="md_teal">#009688</color>
+    <color name="md_indigo">#3f51b5</color>
+    <color name="md_red">#e51c23</color>
+    <color name="md_pink">#e91e63</color>
+    <color name="md_purple">#9c27b0</color>
+    <color name="md_deep_purple">#673ab7</color>
+    <color name="md_blue">#5677fc</color>
+    <color name="md_green">#259b24</color>
+    <color name="md_light_green">#8bc34a</color>
+    <color name="md_deep_orange">#ff5722</color>
+    <color name="md_blue_gray">#607d8b</color>
+    <color name="md_orange">#ff9800</color>
+    <color name="md_light_white">#f7f7f7</color>
+    
+    <color name="apptheme_color">#212121</color>
+    <color name="apptheme_second_color">#9e9e9e</color>
+    <color name="apptheme_third_color">#616161</color>
+    <color name="accent_color">#64ffda</color>
+    <color name="accent_bg_color">#9e9e9e</color>
+    <color name="accent_text_color">#4db6ac</color>
+    <color name="bg_thumbnail">#424242</color>
+    <color name="bg_thumbnail2">#666666</color>
+    <color name="bg_thumbnail_white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    
+    <!-- <color name="actionbar_color">#4A4A4A</color> -->
+    <color name="apptheme_color_tran">#99212121</color>
+    
+    <color name="text_title_color">#404040</color>
+    <color name="text_days_color">#ffa9aaaa</color>
+    
+    <color name="tabtext_normal_color">#C0FFFFFF</color>
+    <color name="tabtext_selected_color">#FFFFFFFF</color>
+    <color name="daytext_color">#ffa9aaaa</color>
+    <color name="page_bg_color">#e4e4e4</color>
+    <color name="line_gray_color">#e5e5e5</color>
+    <color name="card_selected_color">#f5f5f5</color>
+    
+    <color name="search_text_color">#FFFFFF</color>
+    <color name="search_text_hint_color">#80FFFFFF</color>
+    
+    <!-- MuPDF Color -->
+    <color name="canvas">#404040</color>
+	<color name="toolbar">#C0000000</color>
+	<color name="page_indicator">#C0202020</color>
+	<color name="busy_indicator">#C0202020</color>
+	<color name="button_normal">#00000000</color>
+	<color name="button_pressed">#FF2572AC</color>
+	<color name="text_normal">#FFFFFF</color>
+	<color name="text_pressed">#FFFFFF</color>
+	<color name="text_border_normal">#000000</color>
+	<color name="text_border_pressed">#2572AC</color>
+	<color name="text_border_focused">#000000</color>
+	<color name="seek_thumb">#2572AC</color>
+	<color name="seek_progress">#FFFFFF</color>
+	<!-- MuPDF Color -->
+	
+	<!-- Design text color -->
+    <color name="typography_color_text">#DE000000</color>
+    <color name="typography_color_secondarytext_icons">#8A000000</color>
+    <color name="typography_color_hinttext">#43000000</color>
+    <color name="typography_color_dividers">#1F000000</color>
+    <color name="typography_color_caption">#8A000000</color>
+</resources>

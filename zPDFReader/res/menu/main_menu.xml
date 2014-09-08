@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.se_ed.current.CurrentActivity" >
+
+    <item
+        android:id="@+id/main_menu_clear_all_recents"
+        android:showAsAction="never"
+        android:title="Clear Recents"/>
+
+</menu>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="big_card_image_height">220dp</dimen>
+    
+    <dimen name="default_spacing_major_up">36dp</dimen>
+    <dimen name="default_spacing_major">24dp</dimen>
+    <dimen name="default_spacing_major_down">18dp</dimen>
+    <dimen name="default_spacing_minor">12dp</dimen>
+    <dimen name="default_spacing_micro">6dp</dimen>
+
+    
+	<dimen name="card_radius">3dp</dimen>
+	<dimen name="card_buttom_pading">1dp</dimen>
+	<dimen name="layout_maxwidth">700dp</dimen>
+	
+	<!-- zReader -->
+	<integer name="num_columns">4</integer>
+	<dimen name="card_text_info_size">12sp</dimen>
+	<dimen name="gridview_padding">8dp</dimen>
+	<integer name="showdialog">1</integer>
+	<dimen name="drawer_width">280dp</dimen>
+	<dimen name="bottombar_height">56dp</dimen>
+	
+</resources>

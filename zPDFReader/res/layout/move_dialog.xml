@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/padding_step2"
+        android:paddingLeft="@dimen/padding_step3"
+        android:paddingRight="@dimen/padding_step3"
+        android:paddingTop="@dimen/padding_step3" >
+
+        <TextView
+            style="@style/Typography_Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Move to" />
+
+        <LinearLayout
+            android:id="@+id/BackBrowseLayout"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="@dimen/padding_step_0"
+            android:layout_marginLeft="@dimen/padding_step_0"
+            android:layout_marginRight="@dimen/padding_step_0"
+            android:layout_marginTop="@dimen/padding_step3"
+            android:background="#989898"
+            android:gravity="center_vertical"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp" >
+
+            <ImageView
+                android:id="@+id/move_BackBrowseIcon"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:padding="4dp"
+                android:src="@drawable/ic_action_arrow_left" />
+
+            <TextView
+                android:id="@+id/move_path"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:ellipsize="start"
+                android:fontFamily="sans-serif"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/padding_step1"
+                android:singleLine="true"
+                android:text="/sdcard/download"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/secondary_text_light" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/move_ListLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ListView
+                android:id="@+id/move_item_listview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:clipToPadding="false"
+                android:divider="@color/typography_color_dividers"
+                android:dividerHeight="1px"
+                android:paddingBottom="@dimen/padding_step1" />
+
+            <TextView
+                android:id="@+id/move_browseTextNoItem"
+                style="@style/Typography_Subhead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="sans-serif"
+                android:text="No Documents"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/typography_color_hinttext"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/padding_step2"
+            android:layout_marginTop="@dimen/padding_step3"
+            android:gravity="right" >
+
+            <Button
+                android:id="@+id/move_buttonCancel"
+                style="?android:buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:paddingLeft="@dimen/padding_step2"
+                android:paddingRight="@dimen/padding_step2"
+                android:text="CANCEL"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/move_buttonMove"
+                style="?android:buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:paddingLeft="@dimen/padding_step2"
+                android:paddingRight="@dimen/padding_step2"
+                android:text="MOVE"
+                android:textColor="@color/accent_text_color"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

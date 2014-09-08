@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/ic_menu_moreoverflow_note_normal" android:state_window_focused="false"/>
+    <item android:drawable="@drawable/ic_menu_moreoverflow_note_pressed" android:state_pressed="true"/>
+    <item android:drawable="@drawable/ic_menu_moreoverflow_note_focused" android:state_focused="true"/>
+    <item android:drawable="@drawable/ic_menu_moreoverflow_note_pressed" android:state_selected="true"/>
+    <item android:drawable="@drawable/ic_menu_moreoverflow_note_normal"/>
+
+</selector>

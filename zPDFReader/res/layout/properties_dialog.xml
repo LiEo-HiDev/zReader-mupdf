@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_step3" >
+
+            <TextView
+                android:id="@+id/renameTitle"
+                style="@style/Typography_Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Properties" />
+
+            <TextView
+                style="@style/Typography_Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_step3"
+                android:text="File name"
+                android:textColor="@color/typography_color_caption"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/properite_filename"
+                style="@style/Typography_Subhead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_step1"
+                android:gravity="center_vertical"
+                android:text="file name"
+                android:textColor="@color/typography_color_text" />
+
+            <TextView
+                style="@style/Typography_Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_step3"
+                android:text="Path"
+                android:textColor="@color/typography_color_caption"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/properite_path"
+                style="@style/Typography_Subhead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_step1"
+                android:gravity="center_vertical"
+                android:text="path"
+                android:textColor="@color/typography_color_text" />
+
+            <TextView
+                style="@style/Typography_Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_step3"
+                android:text="Size"
+                android:textColor="@color/typography_color_caption"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/properite_size"
+                style="@style/Typography_Subhead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_step1"
+                android:gravity="center_vertical"
+                android:text="0MB"
+                android:textColor="@color/typography_color_text" />
+            
+            <TextView
+                style="@style/Typography_Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_step3"
+                android:text="Permission"
+                android:textColor="@color/typography_color_caption"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/properite_permission"
+                style="@style/Typography_Subhead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_step1"
+                android:gravity="center_vertical"
+                android:text="Read and Write"
+                android:textColor="@color/typography_color_text" />
+
+            <TextView
+                style="@style/Typography_Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_step3"
+                android:text="Modified"
+                android:textColor="@color/typography_color_caption"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/properite_modified"
+                style="@style/Typography_Subhead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_step1"
+                android:gravity="center_vertical"
+                android:text="modified"
+                android:textColor="@color/typography_color_text" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="@dimen/padding_step2"
+        android:layout_marginRight="@dimen/padding_step2"
+        android:gravity="right|center_vertical" >
+
+        <Button
+            android:id="@+id/properite_buttonCancel"
+            style="?android:buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:paddingLeft="@dimen/padding_step2"
+            android:paddingRight="@dimen/padding_step2"
+            android:text="CANCEL"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

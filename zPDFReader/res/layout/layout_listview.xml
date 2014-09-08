@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/page_bg_color" >
+
+    <ListView
+        android:id="@+id/mListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingBottom="@dimen/padding_step1"
+        android:paddingTop="@dimen/padding_step1" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/textViewNoChapter"
+        style="@style/Typography_Subhead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:fontFamily="sans-serif"
+        android:text="No Chapter"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/typography_color_hinttext"
+        android:visibility="gone" />
+
+</RelativeLayout>

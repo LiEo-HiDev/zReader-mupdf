@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Non focused states -->
+    <item android:state_focused="false" android:state_pressed="false" android:state_selected="false" android:color="@color/tabtext_normal_color"/>
+    <item android:state_focused="false" android:state_pressed="false" android:state_selected="true" android:color="@color/tabtext_selected_color"/>
+
+    <!-- Focused states -->
+    <item android:state_focused="true" android:state_pressed="false" android:state_selected="false" android:color="@color/tabtext_normal_color"/>
+    <item android:state_focused="true" android:state_pressed="false" android:state_selected="true" android:color="@color/tabtext_selected_color"/>
+
+    <!-- Pressed -->
+    <!-- Non focused states -->
+    <item android:state_focused="false" android:state_pressed="true" android:state_selected="false" android:color="@color/tabtext_normal_color"/>
+    <item android:state_focused="false" android:state_pressed="true" android:state_selected="true" android:color="@color/tabtext_selected_color"/>
+
+    <!-- Focused states -->
+    <item android:state_focused="true" android:state_pressed="true" android:state_selected="false" android:color="@color/tabtext_normal_color"/>
+    <item android:state_focused="true" android:state_pressed="true" android:state_selected="true" android:color="@color/tabtext_selected_color"/>
+
+</selector>

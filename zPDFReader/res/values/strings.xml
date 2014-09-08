@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PDF Reader</string>
+    
+    <string name="title_section1">News</string>
+    <string name="title_section2">Promotions</string>
+    <string name="title_section3">Recommend</string>
+    <string name="title_section4">YouTube</string>
+    <string name="title_section5">MediaPoint</string>
+    <string name="action_settings">Settings</string>
+    
+    <string-array name="main_category_list">
+        <item >Recents</item>
+        <item >All PDFs</item>
+        <item >Folder View</item>
+    </string-array>
+    
+    <string name="search_hint">Search text</string>
+    <string name="search_label">Search</string>
+    <string name="search_global_description">Search book</string>
+    <string name="press_again_to_exit">Press again to exit</string>
+    <string name="loren_ipsum">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Maecenas malesuada. Praesent congue erat at massa. Sed cursus turpis vitae tortor. Donec posuere vulputate arcu. Phasellus accumsan cursus velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci. Phasellus consectetuer vestibulum elit. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Vestibulum fringilla pede sit amet augue. In turpis. Pellentesque posuere. Praesent turpis. Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis. Nullam sagittis. Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh, nec pellentesque velit pede quis nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus. Ut varius tincidunt libero. Phasellus dolor. Maecenas vestibulum mollis diam. Pellentesque ut neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In dui magna, posuere eget, vestibulum et, tempor auctor, justo. In ac felis quis tortor malesuada pretium. Pellentesque auctor neque nec urna. Proin sapien ipsum, porta a, auctor quis, euismod ut, mi. Aenean viverra rhoncus pede. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut non enim eleifend felis pretium feugiat. Vivamus quis mi. Phasellus a est. Phasellus magna. In hac habitasse platea dictumst. Curabitur at lacus ac velit ornare lobortis. Curabitur a felis in nunc fringilla tristique.</string>
+
+    <!-- pdf menu -->
+    <string name="add_bookmark">Add Bookmark</string>
+    <string name="delete_bookmark">Delete Bookmark</string>
+    <string name="Auto_Rotate">Auto rotate</string>
+    <string name="lock_screen">Lock Screen</string>
+    <string name="flowing_text">Flowing text</string>
+    <string name="original_pages">Original pages</string>
+    
+    <!-- Mupdf String -->
+    <string name="version">1.5 (git build)</string>
+	<string name="no_media_warning">Storage media not present</string>
+	<string name="no_media_hint">Sharing the storage media with a PC can make it inaccessible</string>
+	<string name="cancel">Cancel</string>
+	<string name="search_backwards">Search backwards</string>
+	<string name="search_forwards">Search forwards</string>
+	<string name="search_document">Search document</string>
+	<string name="picker_title_App_Ver_Dir">%1$s %2$s: %3$s</string>
+	<string name="outline_title">Table of Contents</string>
+	<string name="enter_password">Enter password</string>
+	<string name="text_not_found">Text not found</string>
+	<string name="searching_">Searching&#8230;</string>
+	<string name="toggle_links">Highlight and enable links</string>
+	<string name="no_further_occurrences_found">No further occurrences found</string>
+	<string name="select">Select</string>
+	<string name="search">Search</string>
+	<string name="copy">Copy</string>
+	<string name="strike_out">Strike-out</string>
+	<string name="delete">Delete</string>
+	<string name="highlight">Highlight</string>
+	<string name="underline">Underline</string>
+	<string name="edit_annotations">Edit annotations</string>
+	<string name="ink">Ink</string>
+	<string name="save">Save</string>
+	<string name="print">Print</string>
+	<string name="dismiss">Dismiss</string>
+	<string name="parent_directory">[Up one level]</string>
+	<string name="yes">Yes</string>
+	<string name="no">No</string>
+	<string name="entering_reflow_mode">Entering reflow mode</string>
+	<string name="leaving_reflow_mode">Leaving reflow mode</string>
+	<string name="print_failed">Print failed</string>
+	<string name="select_text">Select text</string>
+	<string name="copied_to_clipboard">Copied to clipboard</string>
+	<string name="no_text_selected">No text selected</string>
+	<string name="draw_annotation">Draw annotation</string>
+	<string name="nothing_to_save">Nothing to save</string>
+	<string name="document_has_changes_save_them_">Document has changes. Save them?</string>
+	<string name="cannot_open_document">Cannot open document</string>
+	<string name="cannot_open_document_Reason">Cannot open document: %1$s</string>
+	<string name="cannot_open_file_Path">Cannot open file: %1$s</string>
+	<string name="cannot_open_buffer">Cannot open buffer</string>
+	<string name="fill_out_text_field">Fill out text field</string>
+	<string name="okay">Okay</string>
+	<string name="choose_value">Choose value</string>
+	<string name="not_supported">Not supported</string>
+	<string name="copy_text_to_the_clipboard">Copy text to the clipboard</string>
+	<string name="more">More</string>
+	<string name="accept">Accept</string>
+	<string name="copy_text">copy text</string>
+	<string name="format_currently_not_supported">Format currently not supported</string>
+	<string name="toggle_reflow_mode">Toggle reflow mode</string>
+    <!-- Mupdf String -->
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/mu_reader_search"
+        android:icon="@drawable/ic_action_search"
+        android:title="Search"
+        yourapp:actionViewClass="android.support.v7.widget.SearchView"
+        yourapp:showAsAction="ifRoom|collapseActionView">
+    </item>
+    <item
+        android:id="@+id/mu_reader_bookmark"
+        android:icon="@drawable/ic_action_bookmark_before"
+        android:title="@string/add_bookmark"
+        yourapp:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/mu_reader_autorotate"
+        android:checkable="true"
+        android:checked="true"
+        android:icon="@drawable/ic_action_device_access_screen_rotation"
+        yourapp:showAsAction="ifRoom"
+        android:title="@string/Auto_Rotate">
+    </item>
+    <item
+        android:id="@+id/mu_reader_displayoption"
+        android:title="Display Options"
+        yourapp:showAsAction="never">
+    </item>
+    <item
+        android:id="@+id/mu_reader_flowingtext"
+        yourapp:showAsAction="never"
+        android:title="@string/flowing_text">
+    </item>
+    <item
+        android:id="@+id/mu_reader_print"
+        android:title="Print"
+        yourapp:showAsAction="never">
+    </item>
+
+</menu>
