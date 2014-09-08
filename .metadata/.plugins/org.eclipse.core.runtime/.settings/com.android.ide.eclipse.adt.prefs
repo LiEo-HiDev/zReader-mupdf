@@ -1,0 +1,4 @@
+com.android.ide.eclipse.adt.fixLegacyEditors=1
+com.android.ide.eclipse.adt.sdk=/Users/wettawat/AndroidSpace/Eclipse And Android SDK/sdk
+com.android.ide.eclipse.adt.xmlEditor=true
+eclipse.preferences.version=1
