@@ -1,14 +1,14 @@
 zReader-mupdf
 =============
 
-Android MuPDF extenstion for holo style and implement new Features.
+Android MuPDF extenstion for holo style and implement new features.
 
 ## Nwe Feautres
 
 * Bookmark
 * Lock screen
 * Night mode (black and white)
-* Double page
+* Double page mode
 * Show thumbnail mode
 * Double tab to zoom in/out
 
