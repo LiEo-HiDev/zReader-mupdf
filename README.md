@@ -3,7 +3,7 @@ zReader-mupdf
 
 Android MuPDF extenstion for holo style and implement new features.
 
-## Nwe Feautres
+## New Feautres
 
 * Bookmark
 * Lock screen
