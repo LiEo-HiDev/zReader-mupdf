@@ -2,6 +2,7 @@ zReader-mupdf
 =============
 
 Android MuPDF extenstion for holo style and implement new features.
+Play Store : [PDF Reader](https://play.google.com/store/apps/details?id=com.zreader.main)
 
 ## New Feautres
 
