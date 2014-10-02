@@ -36,7 +36,7 @@
             android:paddingLeft="8dp"
             android:paddingRight="16dp"
             android:paddingTop="0dp"
-            android:text="Remove Ads"
+            android:text="@string/remove_ads"
             android:textColor="@color/typography_color_secondarytext_icons" />
     </LinearLayout>
 
