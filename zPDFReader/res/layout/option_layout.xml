@@ -26,14 +26,14 @@
                     style="@style/Typography_Title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Display Options" />
+                    android:text="@string/display_options" />
 
                 <TextView
                     style="@style/Typography_Caption"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/padding_step3"
-                    android:text="Day/Night mode"
+                    android:text="@string/day_night_mode"
                     android:textColor="@color/typography_color_caption"
                     android:textStyle="normal" />
 
@@ -62,7 +62,7 @@
                     style="@style/Typography_Caption"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="View mode"
+                    android:text="@string/view_mode"
                     android:textColor="@color/typography_color_caption"
                     android:textStyle="normal" />
 
@@ -91,7 +91,7 @@
                     style="@style/Typography_Caption"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Cover page"
+                    android:text="@string/cover_page"
                     android:textColor="@color/typography_color_caption"
                     android:textStyle="normal" />
 
@@ -109,7 +109,7 @@
                         android:layout_height="wrap_content"
                         android:textColor="@color/typography_color_text"
                         android:checked="true"
-                        android:text="Show cover page" />
+                        android:text="@string/show_cover_page" />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
