@@ -28,7 +28,7 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:fontFamily="sans-serif"
-        android:text="No Bookmark"
+        android:text="@string/no_bookmark"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="@android:color/secondary_text_dark"
         android:visibility="gone" />
