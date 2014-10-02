@@ -24,7 +24,7 @@
         android:paddingLeft="8dp"
         android:paddingRight="16dp"
         android:paddingTop="0dp"
-        android:text="Hello"
+        android:text="@string/hello"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="@color/text_title_color" />
 
