@@ -15,7 +15,7 @@
             style="@style/Typography_Title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Rename" />
+            android:text="@string/rename" />
 
         <EditText
             android:id="@+id/editTextBookName"
@@ -44,7 +44,7 @@
             android:layout_height="36dp"
             android:paddingLeft="@dimen/padding_step2"
             android:paddingRight="@dimen/padding_step2"
-            android:text="CANCEL"
+            android:text="@string/big_cancel"
             android:textSize="14sp" />
 
         <Button
@@ -54,7 +54,7 @@
             android:layout_height="36dp"
             android:paddingLeft="@dimen/padding_step2"
             android:paddingRight="@dimen/padding_step2"
-            android:text="RENAME"
+            android:text="@string/big_rename"
             android:textColor="@color/accent_text_color"
             android:textSize="14sp" />
     </LinearLayout>
