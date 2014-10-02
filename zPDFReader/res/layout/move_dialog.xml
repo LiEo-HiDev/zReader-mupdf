@@ -17,7 +17,7 @@
             style="@style/Typography_Title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Move to" />
+            android:text="@string/move_to" />
 
         <LinearLayout
             android:id="@+id/BackBrowseLayout"
@@ -78,7 +78,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
                 android:fontFamily="sans-serif"
-                android:text="No Documents"
+                android:text="@string/no_documents"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="@color/typography_color_hinttext"
                 android:visibility="gone" />
@@ -98,7 +98,7 @@
                 android:layout_height="36dp"
                 android:paddingLeft="@dimen/padding_step2"
                 android:paddingRight="@dimen/padding_step2"
-                android:text="CANCEL"
+                android:text="@string/big_cancel"
                 android:textSize="14sp" />
 
             <Button
@@ -108,7 +108,7 @@
                 android:layout_height="36dp"
                 android:paddingLeft="@dimen/padding_step2"
                 android:paddingRight="@dimen/padding_step2"
-                android:text="MOVE"
+                android:text="@string/big_move"
                 android:textColor="@color/accent_text_color"
                 android:textSize="14sp" />
         </LinearLayout>
