@@ -40,7 +40,7 @@
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:fontFamily="sans-serif"
-            android:text="No Documents"
+            android:text="@string/no_documents"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="@color/typography_color_hinttext"
             android:visibility="gone" />
