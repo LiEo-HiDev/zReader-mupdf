@@ -19,14 +19,14 @@
                 style="@style/Typography_Title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Properties" />
+                android:text="@string/properties" />
 
             <TextView
                 style="@style/Typography_Caption"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding_step3"
-                android:text="File name"
+                android:text="@string/file_name"
                 android:textColor="@color/typography_color_caption"
                 android:textStyle="normal" />
 
@@ -37,7 +37,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding_step1"
                 android:gravity="center_vertical"
-                android:text="file name"
+                android:text="@string/file_name_1"
                 android:textColor="@color/typography_color_text" />
 
             <TextView
@@ -45,7 +45,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding_step3"
-                android:text="Path"
+                android:text="@string/path"
                 android:textColor="@color/typography_color_caption"
                 android:textStyle="normal" />
 
@@ -56,7 +56,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding_step1"
                 android:gravity="center_vertical"
-                android:text="path"
+                android:text="@string/path_1"
                 android:textColor="@color/typography_color_text" />
 
             <TextView
@@ -64,7 +64,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding_step3"
-                android:text="Size"
+                android:text="@string/size"
                 android:textColor="@color/typography_color_caption"
                 android:textStyle="normal" />
 
@@ -75,7 +75,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding_step1"
                 android:gravity="center_vertical"
-                android:text="0MB"
+                android:text="@string/0mb"
                 android:textColor="@color/typography_color_text" />
             
             <TextView
@@ -83,7 +83,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding_step3"
-                android:text="Permission"
+                android:text="@string/permission"
                 android:textColor="@color/typography_color_caption"
                 android:textStyle="normal" />
 
@@ -94,7 +94,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding_step1"
                 android:gravity="center_vertical"
-                android:text="Read and Write"
+                android:text="@string/read_and_write"
                 android:textColor="@color/typography_color_text" />
 
             <TextView
@@ -102,7 +102,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding_step3"
-                android:text="Modified"
+                android:text="@string/modified"
                 android:textColor="@color/typography_color_caption"
                 android:textStyle="normal" />
 
@@ -113,7 +113,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding_step1"
                 android:gravity="center_vertical"
-                android:text="modified"
+                android:text="@string/modified_1"
                 android:textColor="@color/typography_color_text" />
         </LinearLayout>
     </ScrollView>
@@ -133,7 +133,7 @@
             android:layout_height="36dp"
             android:paddingLeft="@dimen/padding_step2"
             android:paddingRight="@dimen/padding_step2"
-            android:text="CANCEL"
+            android:text="@string/big_cancel"
             android:textSize="14sp" />
     </LinearLayout>
 
