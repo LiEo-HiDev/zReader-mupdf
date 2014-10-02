@@ -27,7 +27,7 @@
             android:paddingLeft="@dimen/default_spacing_minor"
             android:paddingRight="@dimen/default_spacing_minor"
             android:paddingTop="@dimen/default_spacing_minor"
-            android:text="@string/4_days_ago"
+            android:text="@string/new_york_first_time"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <ImageView
