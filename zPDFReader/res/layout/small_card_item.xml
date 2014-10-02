@@ -28,7 +28,7 @@
             android:ellipsize="end"
             android:gravity="center_horizontal"
             android:maxLines="4"
-            android:text="Book name"
+            android:text="@string/book_name"
             android:textColor="@android:color/white" />
     </RelativeLayout>
 
@@ -51,7 +51,7 @@
             android:paddingRight="@dimen/card_text_padding"
             android:paddingTop="@dimen/card_text_padding"
             android:singleLine="false"
-            android:text="Book name"
+            android:text="@string/book_name"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textColor="@color/text_title_color" />
 
@@ -76,7 +76,7 @@
         android:paddingLeft="@dimen/card_text_padding"
         android:paddingRight="@dimen/card_text_padding"
         android:singleLine="true"
-        android:text="Day"
+        android:text="@string/day"
         android:textAppearance="?android:attr/textAppearanceSmallPopupMenu"
         android:textColor="@color/text_days_color"
         android:textSize="@dimen/card_text_info_size" />
