@@ -51,11 +51,13 @@ public class ThumbnailViewAdapter extends BaseAdapter {
 	public ThumbnailViewAdapter(Context context, MuPDFCore core) {
 		mContext = context;
 		mCore = core;
-		mPath = PreferencesReader.getDataDir(mContext) + "/Thumbnail/"+PreferencesReader.rePlaceString(mCore.getFilePath());
+		if (mCore.getFilePath() != null) {
+			mPath = PreferencesReader.getDataDir(mContext) + "/Thumbnail/"+PreferencesReader.rePlaceString(mCore.getFilePath());		
+			File mCacheDirectory = new File(mPath);
+			if (!mCacheDirectory.exists() || !mCacheDirectory.isDirectory())
+				mCacheDirectory.mkdirs();
+		}
 		
-		File mCacheDirectory = new File(mPath);
-		if (!mCacheDirectory.exists() || !mCacheDirectory.isDirectory())
-			mCacheDirectory.mkdirs();
 //		mLoadingBitmap = BitmapFactory.decodeResource(mContext.getResources(), R.drawable.ic_ebook_pdf);
 		mLoadingBitmap = null;
 		pd = new BitmapDrawable(mContext.getResources(), mLoadingBitmap);

@@ -1,12 +1,7 @@
 INDEX VERSION 1.126+/Users/wettawat/AndroidSpace/zReader-mupdf/.metadata/.plugins/org.eclipse.jdt.core
-4237983099.index
-2563220495.index
-2152453256.index
-495402791.index
-701190181.index
-1784523918.index
 424189189.index
-281585878.index
-1020279438.index
-4023193877.index
+2152453256.index
 4284133393.index
+4023193877.index
+2563220495.index
+1020279438.index

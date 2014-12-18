@@ -138,7 +138,12 @@ public class searchItemAdapter  extends BaseAdapter{
 
 		@Override
 		protected File doInBackground(Integer... params) {
-			File fi = getPageThumbnail(position);
+			File fi = null;
+			if (mCore.getFilePath() != null) {
+				fi = getPageThumbnail(position);
+			}else {
+				bmp = getPageThumbnailBitmap(position);
+			}			
 			return fi;
 		}
 
@@ -147,17 +152,19 @@ public class searchItemAdapter  extends BaseAdapter{
 			if (isCancelled()) {
 				file = null;
 			}
-			if (viewHolderReference != null && file != null) {
+			if (viewHolderReference != null) {
 				final ImageView imageview = viewHolderReference.get();
 				if (imageview != null) {
 					final BitmapWorkerTask bitmapWorkerTask = getBitmapWorkerTask(imageview);
 					if (this == bitmapWorkerTask && imageview != null) {
-
-						Picasso.with(mContext).load(file)
-						// .placeholder(R.drawable.ic_loading)
-						// .error(R.drawable.ic_no_picture)
-								.into(imageview);
-
+						if (file != null) {
+							Picasso.with(mContext).load(file)
+							// .placeholder(R.drawable.ic_loading)
+							// .error(R.drawable.ic_no_picture)
+									.into(imageview);
+						}else {
+							imageview.setImageBitmap(bmp);
+						}
 					}
 				}
 			}
