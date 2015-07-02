@@ -21,7 +21,7 @@
             android:paddingTop="@dimen/padding_step_ss"
             android:paddingBottom="@dimen/padding_step_ss"
             android:layout_weight="1"
-            android:text="Title"
+            android:text="@string/title"
             android:textColor="@color/typography_color_text" />
 
         <TextView
@@ -30,7 +30,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingLeft="@dimen/padding_step2"
-            android:text="Page"
+            android:text="@string/page"
             android:textColor="@color/typography_color_text" />
     </LinearLayout>
 

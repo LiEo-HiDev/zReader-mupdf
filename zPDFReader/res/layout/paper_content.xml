@@ -41,7 +41,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif-light"
-                        android:text="Medium Text"
+                        android:text="@string/medium_text"
                         android:textAppearance="?android:attr/textAppearanceLarge" />
 
                     <LinearLayout
@@ -56,7 +56,7 @@
                             android:layout_weight="1"
                             android:fontFamily="sans-serif-light"
                             android:lineSpacingMultiplier="1.1"
-                            android:text="se-ed book center"
+                            android:text="@string/se_ed_book_center"
                             android:textAppearance="?android:attr/textAppearanceSmall" />
 
                         <TextView
@@ -65,7 +65,7 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-light"
                             android:lineSpacingMultiplier="1.1"
-                            android:text="4 days ago"
+                            android:text="@string/4_days_ago"
                             android:textAppearance="?android:attr/textAppearanceSmall"
                             android:textColor="@color/daytext_color" />
                     </LinearLayout>
@@ -118,7 +118,7 @@
                                 android:fontFamily="sans-serif-light"
                                 android:gravity="right"
                                 android:paddingRight="@dimen/default_spacing_major"
-                                android:text="se-ed"
+                                android:text="@string/se_ed"
                                 android:textAppearance="?android:attr/textAppearanceMedium" />
 
                             <ImageView
@@ -141,7 +141,7 @@
                                 android:fontFamily="sans-serif-light"
                                 android:gravity="right"
                                 android:paddingRight="@dimen/default_spacing_major"
-                                android:text="se-ed book center"
+                                android:text="@string/se_ed_book_center"
                                 android:textAppearance="?android:attr/textAppearanceMedium" />
 
                             <ImageView

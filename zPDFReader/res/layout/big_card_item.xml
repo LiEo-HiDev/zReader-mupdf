@@ -27,7 +27,7 @@
             android:paddingLeft="@dimen/default_spacing_minor"
             android:paddingRight="@dimen/default_spacing_minor"
             android:paddingTop="@dimen/default_spacing_minor"
-            android:text="New York first time"
+            android:text="@string/new_york_first_time"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <ImageView
@@ -55,7 +55,7 @@
             android:paddingBottom="@dimen/default_spacing_minor"
             android:paddingLeft="@dimen/default_spacing_minor"
             android:paddingRight="@dimen/default_spacing_minor"
-            android:text="se-ed"
+            android:text="@string/se_ed"
             android:textAppearance="?android:attr/textAppearanceSmall" />
 
         <TextView
@@ -65,7 +65,7 @@
             android:fontFamily="sans-serif-light"
             android:paddingBottom="@dimen/default_spacing_minor"
             android:paddingRight="@dimen/default_spacing_minor"
-            android:text="4 days ago"
+            android:text="@string/4_days_ago"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textColor="@color/daytext_color" />
     </LinearLayout>
